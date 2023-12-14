@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ManageFilesUtility", "ManageFilesUtility\ManageFilesUtility.csproj", "{DFD7BC57-1F9F-428D-9AA1-162B5771453D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManageFiles.API", "ManageFiles.API\ManageFiles.API.csproj", "{DC30A2DB-741D-4454-B126-5E0311F12D0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFD7BC57-1F9F-428D-9AA1-162B5771453D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFD7BC57-1F9F-428D-9AA1-162B5771453D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFD7BC57-1F9F-428D-9AA1-162B5771453D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFD7BC57-1F9F-428D-9AA1-162B5771453D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC30A2DB-741D-4454-B126-5E0311F12D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC30A2DB-741D-4454-B126-5E0311F12D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC30A2DB-741D-4454-B126-5E0311F12D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC30A2DB-741D-4454-B126-5E0311F12D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C07F4CE2-CB4B-417C-AB44-DD21391A6394}
+	EndGlobalSection
+EndGlobal
