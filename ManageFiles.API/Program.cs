@@ -5,6 +5,8 @@ using ManageFilesUtility.Services;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Configuration;
+using PdfSharp.Fonts;
+using ManageFilesUtility.Helpers;
 
 public class Program
 {
@@ -36,8 +38,10 @@ public class Program
 
         builder.Services.AddControllers();
 
+        GlobalFontSettings.FontResolver = new SegoeWpFontResolver();
         builder.Services.AddTransient<IPgpService, PgpService>();
         builder.Services.AddTransient<IFileService, FileService>();
+        builder.Services.AddTransient<IPdfService, PdfService>();
         builder.Services.AddScoped<ApiKeyAuthFilter>();
 
         builder.Services.AddHttpContextAccessor();

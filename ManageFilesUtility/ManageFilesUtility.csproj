@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -7,10 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="Assets\Fonts\SegoeWP.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\SegoeWP-Black.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\SegoeWP-Bold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\SegoeWP-Light.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\SegoeWP-Semibold.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\SegoeWP-Semilight.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Azure.Storage.Blobs" Version="12.19.1" />
+    <PackageReference Include="ClosedXML" Version="0.102.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
     <PackageReference Include="Microsoft.SharePoint.Client" Version="14.0.4762.1000" />
+    <PackageReference Include="PDFsharp-MigraDoc" Version="6.0.0" />
     <PackageReference Include="PgpCore" Version="6.0.0" />
     <PackageReference Include="PnP.Framework" Version="1.13.0" />
     <PackageReference Include="Serilog" Version="3.1.1" />
